@@ -1,3 +1,6 @@
+app.get('/', (req, res) => {
+  res.send('BFHL API is running. Use POST /bfhl to access the API.');
+});
 const express = require('express');
 const app = express();
 app.use(express.json());
